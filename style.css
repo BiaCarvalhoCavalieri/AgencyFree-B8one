@@ -1,0 +1,347 @@
+html {
+  font-size: 62.5%;
+  font-family: 'Jost', sans-serif;
+}
+body {
+  margin: 0;
+}
+
+p{
+  font-size: 1.4rem;
+}
+
+h2{
+  font-size: 4rem;
+}
+
+h5{
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+ul{
+  list-style-type: none !important;
+}
+
+a{
+  color: inherit;
+  text-decoration: none !important;
+}
+button {
+  cursor: pointer;
+}
+header .container {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+header .logo{
+  display: flex;
+  width:20rem;
+  height:10rem;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .menu{
+  padding: 0;
+  margin: 0;
+  align-items:center;
+  width: 50vw;
+  height:10rem;
+  display: flex;
+  gap: 6rem;
+  justify-content: center;
+}
+
+nav .menu a {
+  color: #131212;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+header .signUp{
+  width:20rem;
+  height:10rem;
+  display: flex;
+  align-items: center;
+}
+
+header .signUp .btnSignUp{
+  width:12rem;
+  height:4rem;
+  background-color: #EEF4FF;
+  border-radius: 10px;
+}
+
+header .signUp .btnSignUp a{
+  font-size: 1.4rem;
+}
+
+.homeSection {
+  display: flex;
+  height: 70rem;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  margin-top: 7.7rem;
+}
+.homeSection .mainInformations{
+  width: 60rem;
+}
+
+
+.homeSection .mainInformations h1{
+  font-size: 6rem;
+}
+
+
+.homeSection .referencesLinks{
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 4rem;
+}
+
+.homeSection .referencesLinks .btnGetStarted{
+  width:13rem;
+  height:4rem;
+  background-color: #3E3FD8;
+  border: none;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.homeSection .referencesLinks .btnGetStarted span{
+  font-size: 1.4rem;
+  color: white;
+}
+
+.homeSection .referencesLinks a{
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.homeSection .imgBackground img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.clients{
+  height: 20rem;
+}
+.clients h2{
+  margin-left: 35rem;
+}
+
+.clients .ourClients{
+  text-align: center;
+}
+
+.business {
+  display: block;
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.business .businessItems{
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+}
+
+.business .businessItems div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 32rem;
+  width: 32rem;
+  background: white;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 50px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+.business .businessItems div h3{
+  font-size: 1.8rem;
+  margin: 0;
+  padding-top: 3rem;
+}
+.business .businessItems div p{
+  text-align: left;
+  margin: 0;
+  padding-bottom: 3rem;
+}
+
+.business .businessItems div a{
+  font-size: 1.4rem;
+  font-weight: bold;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.news {
+  display: block;
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.news .newsItems{
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+}
+
+.news .newsItems .newsPrimaryDivs{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 42rem;
+  width: 36rem;
+  background: white;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 50px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+.news .newsItems .newsPrimaryDivs h4{
+  font-size: 1.8rem;
+  margin: 0;
+  padding-top: 3rem;
+}
+
+.news .newsItems .newsPrimaryDivs .newsIcons{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding-top: 1.8rem;
+
+}
+.news .newsItems .newsPrimaryDivs .newsIcons span{
+  padding-left: 0.5rem;
+  font-size: 1.4rem;
+}
+.news .newsItems .newsPrimaryDivs .newsIcons .newsUser{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  align-items: center;
+}
+.news .newsItems .newsPrimaryDivs .newsIcons .newsCalendar{
+  padding-left: 4.2rem;
+  padding-right: 2rem;
+  display: flex;
+  align-items: center;
+  
+}
+
+.subscribe{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.subscribe .subscribeInformations a{
+  font-size: 1.6rem;
+}
+
+.subscribe .subscribeInformations {
+  margin-top: 4rem;
+}
+.subscribe .subscribeInputs{
+  border: 2px solid #61646B;
+  border-radius: 15rem;
+  width: 60rem;
+  opacity: 0.7;
+}
+
+.subscribe .subscribeInputs input{
+  border: none;
+  height: 5rem;
+  width: 41rem;
+  border-radius: 15rem 0 0 15rem;
+  padding-left: 2rem;
+  outline: none;
+  font-size: 2rem;
+  font-family: 'Jost', sans-serif;
+}
+
+.subscribe .subscribeInputs button{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  height: 5rem;
+  border-radius: 15rem;
+  background: #3E3FD8;
+  color: white;
+  width: 16rem;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: 'Jost', sans-serif;
+}
+
+footer {
+  width: 100%;
+  margin-top: 10rem;
+  background-color: #3E3FD8;
+  color: #fff;
+}
+
+footer .footerGeneral{
+  padding: 10rem 0 10rem 0rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .footerBlock1{
+  width: 25rem;
+  padding-right: 4rem;
+}
+
+footer .footerBlock1 .socialLinks{
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2rem 0 0;
+  gap: 2rem;
+}
+
+footer .footerGeneral ul{
+  padding: 0;
+  line-height: 3rem
+  
+}
+
+footer a{
+  color: #fff; 
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+footer .footerAllRights{
+  padding: 0.2rem;
+  text-align: center;
+}
