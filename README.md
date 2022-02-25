@@ -5,4 +5,4 @@ Projeto desenvolvido no curso da B8One.Academy e estilizado de acordo com o figm
 To release: 
 RESPONSIVIDADE
 
-Acesse projeto pelo link: https://bia3003.github.io/AgencyFree-B8one/
+Acesse projeto pelo link: https://biacarvalhocavalieri.github.io/AgencyFree-B8one/
